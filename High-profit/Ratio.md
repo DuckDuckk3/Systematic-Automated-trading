@@ -8,4 +8,7 @@ Neutralization: None | Universe: TOP3000. These alphas works well on smaller uni
 Neutralization: Subindustry | Universe: TOP3000.
 - `group_neutralize(rank(liabilities / assets) + rank(cogs / assets), subindustry)` performs well
 - `rank(inventory / capex)`
+- `-ts_decay_linear(group_neutralize(rank(ts_delta(cashflow, 252) / enterprise_value), industry), 30)`
+- `-ts_decay_linear(group_neutralize(rank(cashflow / enterprise_value), subindustry), 10)`
+- `-rank(cashflow / sales)`
 
