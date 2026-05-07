@@ -11,4 +11,5 @@ Neutralization: Subindustry | Universe: TOP3000.
 - `-ts_decay_linear(group_neutralize(rank(ts_delta(cashflow, 252) / enterprise_value), industry), 30)`
 - `-ts_decay_linear(group_neutralize(rank(cashflow / enterprise_value), subindustry), 10)`
 - `-rank(cashflow / sales)`
+- `rank(cogs/assets)`
 
