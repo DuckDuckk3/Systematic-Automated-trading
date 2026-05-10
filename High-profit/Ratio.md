@@ -13,3 +13,5 @@ Neutralization: Subindustry | Universe: TOP3000.
 - `-rank(cashflow / sales)`
 - `rank(cogs/assets)`
 
+Neutralization: Industry | Universe: TOP3000.
+- `-rank(returns/log(cap))`
